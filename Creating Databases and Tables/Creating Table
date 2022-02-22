@@ -1,0 +1,10 @@
+create database cat_app;
+use cat_app;
+
+Create table cats(
+ Name varchar(100),
+ Age int,
+ Address varchar(100),
+ mobile Bigint
+);
+SHOW TABLES;

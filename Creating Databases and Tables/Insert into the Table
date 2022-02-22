@@ -1,0 +1,16 @@
+create database cat_app;
+use cat_app;
+
+Create table cats(
+ Name varchar(100),
+ Age int,
+ Address varchar(100),
+ mobile Bigint
+);
+SHOW TABLES;
+INSERT INTO cats(Name,Age,Address,Mob)
+   VALUES("Umang PrataP Singh",7,"Dhampur",8630240576),
+     ("Dev PrataP Singh",13,"Bijnor",9456676285),
+     ("Priyank PrataP Singh",25,"Delhi",8000240576);
+select * from cats;
+
